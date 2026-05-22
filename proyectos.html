@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos — Isabel Fresneda</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header is-inverted">
+    <div class="header-container">
+      <div class="inner-bar">
+        <nav class="nav-menu">
+          <a href="index.html" class="nav-item">home</a>
+          <div class="dropdown-container">
+            <a href="proyectos.html" class="nav-item is-active">proyectos</a>
+            <div class="dropdown-menu">
+              <a href="proyectos.html" class="dropdown-item">impresa</a>
+              <span class="dropdown-item disabled">identidad</span>
+              <span class="dropdown-item disabled">audiovisual</span>
+              <span class="dropdown-item disabled">experimental</span>
+            </div>
+          </div>
+          <button class="nav-item nav-button" onclick="scrollToFooter()">contacto</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- HERO compact -->
+    <section class="hero-section is-compact">
+      <div class="hero-container">
+        <div class="titles-wrapper">
+          <h2 class="bg-title-outlined">01</h2>
+          <h1 class="main-title">GRÁFICA IMPRESA</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+    <section class="slider-section">
+      <div class="slider-wrapper">
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="slide-card">
+                <img src="assets/img/slide_01.png" alt="Fanzine" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slide-card">
+                <img src="assets/img/slide_02.png" alt="Libro Arte" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slide-card">
+                <img src="assets/img/slide_03.png" alt="Publicación" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slide-card">
+                <img src="assets/img/slide_04.png" alt="Carcasa" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slide-card">
+                <img src="assets/img/slide_05.png" alt="Packaging" />
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Botones de navegación -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="project-description">
+      <div class="description-container">
+        <div class="title-col">
+          <h2 class="project-title">
+            <span class="light" id="desc-h1">FANZINE</span>
+            <span class="magenta" id="desc-h2">graffiti fanzine</span>
+          </h2>
+        </div>
+        <div class="text-col">
+          <ul id="desc-list">
+            <li>El proyecto "Graffiti" es un trabajo editorial y una exploración del arte urbano. Es palpable el concepto de arte urbano entendido como arte callejero y que aúna amistad e insurrección.</li>
+            <li>A través de un concepto original, tiene como fin la exposición de las técnicas gráficas de impresión digital como tramados, semitonos, separación de canales CMYK y juegos de umbral, entre otros.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="contact-footer">
+    <div class="scrolling-background">
+      <div class="text-row"><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span></div>
+      <div class="text-row reverse"><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span></div>
+      <div class="text-row"><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span></div>
+    </div>
+    <div class="content-overlay">
+      <h3 class="open-to-work">i'm open to work!</h3>
+      <div class="social-icons">
+        <a href="#" class="icon"><img src="https://api.iconify.design/solar:phone-bold.svg?color=%23ffffff" alt="Phone" /></a>
+        <a href="#" class="icon"><img src="https://api.iconify.design/mdi:instagram.svg?color=%23ffffff" alt="Instagram" /></a>
+        <a href="#" class="icon"><img src="https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff" alt="LinkedIn" /></a>
+        <a href="#" class="icon"><img src="https://api.iconify.design/material-symbols:mail-rounded.svg?color=%23ffffff" alt="Mail" /></a>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div class="copyright">
+        <span>©2025</span>
+        <span class="name">isabel fresneda</span>
+        <span>all rights reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- JS propio SIEMPRE después de Swiper -->
+  <script src="app/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isabel Fresneda — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header" id="main-header">
+    <div class="header-container">
+      <div class="inner-bar">
+        <nav class="nav-menu">
+          <a href="index.html" class="nav-item is-active">home</a>
+          <div class="dropdown-container">
+            <a href="proyectos.html" class="nav-item">proyectos</a>
+            <div class="dropdown-menu">
+              <a href="proyectos.html" class="dropdown-item">impresa</a>
+              <span class="dropdown-item disabled">identidad</span>
+              <span class="dropdown-item disabled">audiovisual</span>
+              <span class="dropdown-item disabled">experimental</span>
+            </div>
+          </div>
+          <button class="nav-item nav-button" onclick="scrollToFooter()">contacto</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-content">
+
+    <!-- HERO -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="titles-wrapper">
+          <h2 class="bg-title-outlined">PORTFOLIO</h2>
+          <h1 class="main-title">ISABEL FRESNEDA</h1>
+        </div>
+        <div class="hero-content">
+          <div class="content-left">
+            <ul class="nav-list">
+              <li>proyectos académicos</li>
+              <li>colaboraciones</li>
+              <li>encargos externos</li>
+            </ul>
+          </div>
+          <div class="content-middle">
+            <p>Apasionada de solucionar los problemas, facilitar tareas y aumentar la accesibilidad, en base a los recursos, me desenvuelvo eficazmente en áreas de diseño editorial, ilustración, diseño de marca y gráfica impresa.</p>
+          </div>
+          <div class="content-right">
+            <p>Tengo experiencia haciendo encargos para particulares y temporalmente de diseñadora junior para la papelería de la tienda Paréntesis de Olvido Magia y Té, y de becaria en editorial Marcablanca.press. Recientemente incorporada como diseñadora junior en la agencia Prodigioso Volcán.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID -->
+    <section class="grid-section">
+
+      <!-- Fila 1: IMPRESA -->
+      <div class="grid-row" data-row="1">
+        <div class="grid-item is-selected" data-row="1" data-index="1">
+          <div class="item-inner">
+            <img src="assets/img/row1_img1.png" alt="Impresa" />
+            <div class="overlay"><h3 class="title">IMPRESA</h3></div>
+          </div>
+        </div>
+        <div class="grid-item" data-row="1" data-index="2">
+          <div class="item-inner">
+            <img src="assets/img/row1_img2.png alt="Impresa" />
+            <div class="overlay"><h3 class="title">IMPRESA</h3></div>
+          </div>
+        </div>
+        <div class="grid-item" data-row="1" data-index="3">
+          <div class="item-inner">
+            <img src="assets/img/row1_img3.png" alt="Impresa" />
+            <div class="overlay"><h3 class="title">IMPRESA</h3></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila 2: IDENTIDAD -->
+      <div class="grid-row" data-row="2">
+        <div class="grid-item" data-row="2" data-index="1">
+          <div class="item-inner">
+            <img src="assets/img/row2_img1.png" alt="Identidad" />
+            <div class="overlay"><h3 class="title">IDENTIDAD</h3></div>
+          </div>
+        </div>
+        <div class="grid-item is-selected" data-row="2" data-index="2">
+          <div class="item-inner">
+            <img src="assets/img/row2_img2.png" alt="Identidad" />
+            <div class="overlay"><h3 class="title">IDENTIDAD</h3></div>
+          </div>
+        </div>
+        <div class="grid-item" data-row="2" data-index="3">
+          <div class="item-inner">
+            <img src="assets/img/row2_img3.png" alt="Identidad" />
+            <div class="overlay"><h3 class="title">IDENTIDAD</h3></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila 3: AUDIOVISUAL -->
+      <div class="grid-row" data-row="3">
+        <div class="grid-item" data-row="3" data-index="1">
+          <div class="item-inner">
+            <img src="assets/img/row3_img1.jpg" alt="Audiovisual" />
+            <div class="overlay"><h3 class="title">AUDIOVISUAL</h3></div>
+          </div>
+        </div>
+        <div class="grid-item" data-row="3" data-index="2">
+          <div class="item-inner">
+            <img src="assets/img/row3_img2.png" alt="Audiovisual" />
+            <div class="overlay"><h3 class="title">AUDIOVISUAL</h3></div>
+          </div>
+        </div>
+        <div class="grid-item is-selected" data-row="3" data-index="3">
+          <div class="item-inner">
+            <img src="assets/img/row3_img3.png" alt="Audiovisual" />
+            <div class="overlay"><h3 class="title">AUDIOVISUAL</h3></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fila 4: EXPERIMENTAL -->
+      <div class="grid-row" data-row="4">
+        <div class="grid-item" data-row="4" data-index="1">
+          <div class="item-inner">
+            <img src="assets/img/row4_img1.png" alt="Experimental" />
+            <div class="overlay"><h3 class="title">EXPERIMENTAL</h3></div>
+          </div>
+        </div>
+        <div class="grid-item is-selected" data-row="4" data-index="2">
+          <div class="item-inner">
+            <img src="assets/img/row4_img2.png" alt="Experimental" />
+            <div class="overlay"><h3 class="title">EXPERIMENTAL</h3></div>
+          </div>
+        </div>
+        <div class="grid-item" data-row="4" data-index="3">
+          <div class="item-inner">
+            <img src="assets/img/row4_img3.png" alt="Experimental" />
+            <div class="overlay"><h3 class="title">EXPERIMENTAL</h3></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="contact-footer">
+    <div class="scrolling-background">
+      <div class="text-row">
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span>
+      </div>
+      <div class="text-row reverse">
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span>
+      </div>
+      <div class="text-row">
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span><span>CONTACT ME</span><span>CONTACT ME</span>
+        <span>CONTACT ME</span>
+      </div>
+    </div>
+    <div class="content-overlay">
+      <h3 class="open-to-work">i'm open to work!</h3>
+      <div class="social-icons">
+        <a href="#" class="icon phone"><img src="https://api.iconify.design/solar:phone-bold.svg?color=%23ffffff" alt="Phone" /></a>
+        <a href="#" class="icon instagram"><img src="https://api.iconify.design/mdi:instagram.svg?color=%23ffffff" alt="Instagram" /></a>
+        <a href="#" class="icon linkedin"><img src="https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff" alt="LinkedIn" /></a>
+        <a href="#" class="icon mail"><img src="https://api.iconify.design/material-symbols:mail-rounded.svg?color=%23ffffff" alt="Mail" /></a>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div class="copyright">
+        <span>©2025</span>
+        <span class="name">isabel fresneda</span>
+        <span>all rights reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app/main.js"></script>
+</body>
+</html>
