@@ -21,7 +21,7 @@ function updateDescription(slide) {
   })
 }
 
-/* ── Inicializar Swiper con datos del JSON ── */
+/* ── Inicializar Swiper JSON ── */
 var swiperEl = document.querySelector('.mySwiper')
 
 if (swiperEl) {
